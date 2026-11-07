@@ -1,0 +1,29 @@
+# Sensitive Service Account Keys & Secrets
+service_account.json
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+
+# Local Data Processing Folders
+inbound_challans/
+processed_challans/
+
+# Python Virtual Environments & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# System and Editor Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
